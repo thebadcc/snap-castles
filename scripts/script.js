@@ -1,34 +1,3 @@
-let imgInput = document.getElementById('image-input');
-        imgInput.addEventListener('change', function (e) {
-            if (e.target.files) {
-                let imageFile = e.target.files[0];
-                var reader = new FileReader();
-                reader.onload = function (e) {
-                    var img = document.createElement("img");
-                    img.onload = function (event) {
-                        // Dynamically create a canvas element
-                        var canvas = document.createElement("canvas");
-
-                        // var canvas = document.getElementById("canvas");
-                        var ctx = canvas.getContext("2d");
-
-                        // Actual resizing
-                        ctx.drawImage(img, 0, 0, 32, 32);
-
-                        // Show resized image in preview element
-                        var dataurl = canvas.toDataURL(imageFile.type);
-                        console.log(dataurl);
-                        // document.getElementById("preview").src = dataurl;
-                    }
-
-                    myImg.src = e.target.result;
-                    console.log(myImg.src)
-                    
-                }
-                reader.readAsDataURL(imageFile);
-            }
-        });
-        
 const RGBToHSL = (r, g, b) => {
   r /= 255;
   g /= 255;
@@ -69,29 +38,65 @@ function generate() {
 	} else {
   }
   if (hexOutput[2] >= 80) {
-   encodedSet.push(9);
+   encodedSet.push(document.getElementsByClassName('structure')[8].value);
   } else if (hexOutput[2] < 80 && hexOutput[2] >= 70) {
-  encodedSet.push(8);
+  encodedSet.push(document.getElementsByClassName('structure')[7].value);
   } else if (hexOutput[2] < 70 && hexOutput[2] >= 60) {
-  encodedSet.push(7);
+  encodedSet.push(document.getElementsByClassName('structure')[6].value);
   } else if (hexOutput[2] < 60 && hexOutput[2] >= 50) {
-  encodedSet.push(6);
+  encodedSet.push(document.getElementsByClassName('structure')[5].value);
   } else if (hexOutput[2] < 50 && hexOutput[2] >= 40) {
-  encodedSet.push(5);
+  encodedSet.push(document.getElementsByClassName('structure')[4].value);
   } else if (hexOutput[2] < 40 && hexOutput[2] >= 30) {
-  encodedSet.push(4);
+  encodedSet.push(document.getElementsByClassName('structure')[3].value);
   } else if (hexOutput[2] < 30 && hexOutput[2] >= 20) {
-  encodedSet.push(3);
+  encodedSet.push(document.getElementsByClassName('structure')[2].value);
   }else if (hexOutput[2] < 20 && hexOutput[2] >= 10) {
-  encodedSet.push(2);
+  encodedSet.push(document.getElementsByClassName('structure')[1].value);
   } else if (hexOutput[2] < 10 && hexOutput[2] >= 0) {
-  encodedSet.push(1);
+  encodedSet.push(document.getElementsByClassName('structure')[0].value);
   }
   }
   }
   
   var _outputSet = encodedSet.toString();
   var outputSet = _outputSet.replace(/,/g, '')
-  var urlDream = btoa(outputSet)
-  console.log("https://enterdream.xyz/index.html?id=6597&dream=" + urlDream);
+  document.getElementsByClassName('response')[0].innerHTML = outputSet;
+  //var urlDream = btoa(outputSet)
+  //let baseURL = 'https://enterdream.xyz/index.html?id=9299&dream=';
 }
+
+let imgInput = document.getElementById('image-input');
+        imgInput.addEventListener('change', function (e) {
+            if (e.target.files) {
+                let imageFile = e.target.files[0];
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    var img = document.createElement("img");
+                    img.onload = function (event) {
+                        // Dynamically create a canvas element
+                        var canvas = document.createElement("canvas");
+
+                        // var canvas = document.getElementById("canvas");
+                        var ctx = canvas.getContext("2d");
+
+                        // Actual resizing
+                        ctx.drawImage(img, 0, 0, 32, 32);
+
+                        // Show resized image in preview element
+                        var dataurl = canvas.toDataURL(imageFile.type);
+                        console.log(dataurl);
+                        // document.getElementById("preview").src = dataurl;										'
+                        
+                    }
+
+                    myImg.src = e.target.result;
+                    console.log(myImg.src)
+                    
+                    
+                }
+                reader.readAsDataURL(imageFile);
+            }
+        });
+        
+
