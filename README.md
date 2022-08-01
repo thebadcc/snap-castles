@@ -1,4 +1,4 @@
-# snapCastles
+# snapCastles v0.01
 
 ## LICENSE (MIT)
 
