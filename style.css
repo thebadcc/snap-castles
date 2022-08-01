@@ -1,6 +1,7 @@
 body {
      font-family: monospace;
-    text-align: center;
+     text-align: center;
+
 }
 #preview {
   height:100%;
@@ -15,9 +16,13 @@ body {
 .response {
    word-wrap: break-word;
    width: 230px;
-   margin: auto;
+   margin: auto;   
 }
 
 .copyButton {
   width: 230px;
+}
+
+a {
+  color: black;
 }
