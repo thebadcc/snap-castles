@@ -1,12 +1,23 @@
+body {
+     font-family: monospace;
+    text-align: center;
+}
 #preview {
   height:100%;
   width: 100%;
 }
 
 .structure {
-  width: 15px
+  width: 15px;
+  font-family: monospace;
+  text-align: center;
 }
 .response {
    word-wrap: break-word;
-   width: 256px;
+   width: 230px;
+   margin: auto;
+}
+
+.copyButton {
+  width: 230px;
 }
