@@ -1,3 +1,12 @@
+function copyToClipboard() {
+  var range = document.createRange();
+  range.selectNode(document.getElementsByClassName("response")[0]);
+  window.getSelection().removeAllRanges(); // clear current selection
+  window.getSelection().addRange(range); // to select text
+  document.execCommand("copy");
+  window.getSelection().removeAllRanges();// to deselect
+}
+                
 const RGBToHSL = (r, g, b) => {
   r /= 255;
   g /= 255;
@@ -67,36 +76,25 @@ function generate() {
 }
 
 let imgInput = document.getElementById('image-input');
-        imgInput.addEventListener('change', function (e) {
+imgInput.addEventListener('change', 
+        function uploadImage(e) {
             if (e.target.files) {
                 let imageFile = e.target.files[0];
                 var reader = new FileReader();
                 reader.onload = function (e) {
                     var img = document.createElement("img");
                     img.onload = function (event) {
-                        // Dynamically create a canvas element
                         var canvas = document.createElement("canvas");
-
-                        // var canvas = document.getElementById("canvas");
                         var ctx = canvas.getContext("2d");
-
-                        // Actual resizing
                         ctx.drawImage(img, 0, 0, 32, 32);
-
-                        // Show resized image in preview element
                         var dataurl = canvas.toDataURL(imageFile.type);
-                        console.log(dataurl);
-                        // document.getElementById("preview").src = dataurl;										'
-                        
+                        console.log(dataurl);               
                     }
-
                     myImg.src = e.target.result;
-                    console.log(myImg.src)
-                    
-                    
                 }
                 reader.readAsDataURL(imageFile);
-            }
-        });
-        
 
+								
+            }
+
+        });
