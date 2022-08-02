@@ -1,6 +1,6 @@
 # snapCastles v0.01
 
-![Alt Text](https://github.com/thebadcc/snap-castles/blob/main/images/moonbird_366.gif?raw=true)
+![Alt Text](https://github.com/thebadcc/snap-castles/blob/main/images/banner-mathcastles.gif?raw=true)
 
 
 ## LICENSE (MIT)
