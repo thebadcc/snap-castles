@@ -4,13 +4,13 @@
 
 **How to Guide**
 
-1. Upload your image. Makes sure you've resized it to 32x32 pixels.
+Step 1. Upload your image. Makes sure you've resized it to 32x32 pixels.
 
-2. Click "Generate" to see the output below.
+Step 2. Click "Generate" to see the output below.
 
-3. You can modify numbers 1-9 to change the image automatically.
+Step 3. You can modify numbers 1-9 to change the image automatically.
 
-4. Either copy the input and past into enterdream.xyz or select "Enter Random Dream" to see the output.
+Step 4. Either copy the input and past into enterdream.xyz or select "Enter Random Dream" to see the output.
 
 
 ## LICENSE (MIT)
