@@ -1,6 +1,8 @@
 body {
      font-family: monospace;
      text-align: center;
+     background: url(https://github.com/thebadcc/snap-castles/blob/main/images/backgroundBanner_v2.png?raw=true);
+     background-size: cover;
 
 }
 #preview {
