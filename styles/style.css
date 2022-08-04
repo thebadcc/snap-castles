@@ -26,3 +26,48 @@ body {
 a {
   color: black;
 }
+
+.s9 {
+  color: black;
+  background: #d3d3d3;
+}
+
+.s8 {
+  color: black;
+  background: #bebebe;
+}
+
+.s7 {
+  color: black;
+  background: #a9a9a9;
+}
+
+.s6 {
+   color: black;
+   background: #949494;
+}
+
+.s5 {
+   color: gray;
+   background: #7f7f7f;
+}
+
+.s4 {
+   color: white;
+   background: #6a6a6a; 
+}
+
+.s3 {
+   color: white;  
+   background: #545454;
+}
+
+.s2 {
+   color: white;
+   background: #3f3f3f;
+}
+
+.s1 {
+  color: white;
+  background: #2a2a2a;
+}
