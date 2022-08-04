@@ -19,6 +19,9 @@
             <button class="generateButton" onclick='generate()'>Generate</button>
         </div> 
         <div>
+            <button class="copyButton" onclick="copyToClipboard()">Copy</button>
+        </div>
+        <div>
             <input class="structure" value="1" onchange="generate()">
             <input class="structure" value="2" onchange="generate()">
             <input class="structure" value="3" onchange="generate()">
@@ -31,7 +34,6 @@
         </div>
     </div>
     <div>
-         <button class="copyButton" onclick="copyToClipboard()">Copy</button>
          <p class="response"></p>
    </div>
    <script src="./scripts/script.js"></script>
