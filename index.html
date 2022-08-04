@@ -10,7 +10,7 @@
     </h3>
     </div>
     <div>
-        <button onclick='generate()'>Generate</button>
+        <button class="generateButton" onclick='generate()'>Generate</button>
         <input type="file" id="image-input" accept="image/*">
         <div>
         <p>
@@ -29,7 +29,6 @@
         <input class="structure" value="8" onchange="generate()">
         <input class="structure" value="9" onchange="generate()">
    </div>
-   <br>
     <div>
          <button class="copyButton" onclick="copyToClipboard()">Copy</button>
          <p class="response"></p>
