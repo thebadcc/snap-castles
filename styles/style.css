@@ -10,6 +10,19 @@ body {
   width: 100%;
 }
 
+.title h1 {
+    color: white;
+    font-size: 10vw;
+    text-shadow: 5px 5px pink;
+    margin: 0;
+}
+
+.title h3 {
+    color: white;
+    font-size: 5vw;
+    text-shadow: 3px 3px pink;
+    margin: 0;
+}
 .structure {
   width: 15px;
   font-family: monospace;
