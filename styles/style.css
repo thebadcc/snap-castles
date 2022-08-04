@@ -20,7 +20,17 @@ body {
 }
 
 .copyButton {
-  margin-bottom: 20px;
+  margin: 20px;
+  width: 230px;
+}
+
+.copyButton {
+  margin: 20px;
+  width: 230px;
+}
+
+.generateButton {
+  margin: 20px;
   width: 230px;
 }
 
