@@ -70,7 +70,11 @@ function generate() {
 
   var _outputSet = encodedSet.toString();
   var outputSet = _outputSet.replace(/,/g, '')
-  document.getElementsByClassName('response')[0].innerHTML = outputSet;
+  var u = 0;
+  document.getElementsByClassName('response')[0].innerHTML = '';
+  for (u; u < outputSet.length; u++) {
+       document.getElementsByClassName('response')[0].innerHTML += "<span class='s" + outputSet[u] + "'>" + outputSet[u] + "</span>";
+  }
   //var urlDream = btoa(outputSet)
   //let baseURL = 'https://enterdream.xyz/index.html?id=9299&dream=';
 }
