@@ -34,6 +34,11 @@ body {
   width: 230px;
 }
 
+.fileButton {
+  margin: 20px;
+  width: 230px;
+}
+
 a {
   color: black;
 }
