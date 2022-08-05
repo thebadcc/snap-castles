@@ -198,6 +198,10 @@ button:hover {
 
 }
 
+a {
+  color: white;
+}
+
 .form-group {
   max-width: 500px;
   margin: auto;
