@@ -12,15 +12,15 @@ body {
 
 .title h1 {
     color: white;
-    font-size: 10vw;
-    text-shadow: 5px 5px pink;
+    font-size: 8vw;
+    text-shadow: 1vw 1vw black;
     margin: 0;
 }
 
 .title h3 {
     color: white;
-    font-size: 5vw;
-    text-shadow: 3px 3px pink;
+    font-size: 3vw;
+    text-shadow: 1vw 1vw black;
     margin: 0;
 }
 .structure {
