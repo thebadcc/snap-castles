@@ -47,23 +47,23 @@ function generate() {
         pixelSet.push(hexOutput[2]);
       } else {}
       if (hexOutput[2] >= 80) {
-        encodedSet.push(document.getElementsByClassName('structure')[8].value);
+        encodedSet.push(document.getElementsByClassName('form-control')[8].value);
       } else if (hexOutput[2] < 80 && hexOutput[2] >= 70) {
-        encodedSet.push(document.getElementsByClassName('structure')[7].value);
+        encodedSet.push(document.getElementsByClassName('form-control')[7].value);
       } else if (hexOutput[2] < 70 && hexOutput[2] >= 60) {
-        encodedSet.push(document.getElementsByClassName('structure')[6].value);
+        encodedSet.push(document.getElementsByClassName('form-control')[6].value);
       } else if (hexOutput[2] < 60 && hexOutput[2] >= 50) {
-        encodedSet.push(document.getElementsByClassName('structure')[5].value);
+        encodedSet.push(document.getElementsByClassName('form-control')[5].value);
       } else if (hexOutput[2] < 50 && hexOutput[2] >= 40) {
-        encodedSet.push(document.getElementsByClassName('structure')[4].value);
+        encodedSet.push(document.getElementsByClassName('form-control')[4].value);
       } else if (hexOutput[2] < 40 && hexOutput[2] >= 30) {
-        encodedSet.push(document.getElementsByClassName('structure')[3].value);
+        encodedSet.push(document.getElementsByClassName('form-control')[3].value);
       } else if (hexOutput[2] < 30 && hexOutput[2] >= 20) {
-        encodedSet.push(document.getElementsByClassName('structure')[2].value);
+        encodedSet.push(document.getElementsByClassName('form-control')[2].value);
       } else if (hexOutput[2] < 20 && hexOutput[2] >= 10) {
-        encodedSet.push(document.getElementsByClassName('structure')[1].value);
+        encodedSet.push(document.getElementsByClassName('form-control')[1].value);
       } else if (hexOutput[2] < 10 && hexOutput[2] >= 0) {
-        encodedSet.push(document.getElementsByClassName('structure')[0].value);
+        encodedSet.push(document.getElementsByClassName('form-control')[0].value);
       }
     }
   }
@@ -75,11 +75,10 @@ function generate() {
   for (u; u < outputSet.length; u++) {
        document.getElementsByClassName('response')[0].innerHTML += "<span class='s" + outputSet[u] + "'>" + outputSet[u] + "</span>";
   }
-  //var urlDream = btoa(outputSet)
-  //let baseURL = 'https://enterdream.xyz/index.html?id=9299&dream=';
+
 }
 
-let imgInput = document.getElementById('image-input');
+let imgInput = document.getElementById('images');
 imgInput.addEventListener('change',
   function uploadImage(e) {
     if (e.target.files) {
