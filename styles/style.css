@@ -13,14 +13,14 @@ body {
 .title h1 {
     color: white;
     font-size: 8vw;
-    text-shadow: 1vw 1vw black;
+    text-shadow: 5px 5px black;
     margin: 0;
 }
 
 .title h3 {
     color: white;
     font-size: 3vw;
-    text-shadow: 1vw 1vw black;
+    text-shadow: 3px 3px black;
     margin: 0;
 }
 .structure {
