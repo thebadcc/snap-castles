@@ -1,6 +1,6 @@
 ![banner](https://github.com/thebadcc/snap-castles/blob/main/images/banner-mathcastles.gif?raw=true)
 
-# snapCastles v0.01
+# snapCastles v1.00
 
 **How to Guide**
 
