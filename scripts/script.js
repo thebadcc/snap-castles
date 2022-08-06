@@ -8,9 +8,9 @@ function copyToClipboard() {
 }
 
 function enterDream(){
-var encoded = document.getElementsByClassName("response")[0]);
+var encoded = document.getElementsByClassName("response")[0];
 console.log(encoded);
-window.open("https://enterdream.xyz/index.html?id=" + Math.floor((Math.random() * 9909 ) + 1) + "&dream=" + btoa();
+window.open("https://enterdream.xyz/index.html?id=" + Math.floor((Math.random() * 9909 ) + 1) + "&dream=" + btoa(encoded);
 }
 
 const RGBToHSL = (r, g, b) => {
