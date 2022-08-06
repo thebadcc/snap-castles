@@ -19,7 +19,7 @@ Step 3. You can modify numbers 1-9 in the Editor to change the image automatical
 ![image](https://user-images.githubusercontent.com/95499220/183228971-8dce5886-51e4-48f3-9477-6b418a74a3f2.png)
 
 
-Step 4. Either copy the input and past into enterdream.xyz or select "Enter Dream" to see the output in a random Terraform.
+Step 4. Either copy the import and past into https://enterdream.xyz or select "Enter Dream" to see the import in a random Terraform.
 
 ![image](https://user-images.githubusercontent.com/95499220/183229006-6f9e942b-9780-4352-9dde-634a67f09dd3.png)
 
