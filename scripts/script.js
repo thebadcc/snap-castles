@@ -1,10 +1,14 @@
 function copyToClipboard() {
   var range = document.createRange();
   range.selectNode(document.getElementsByClassName("response")[0]);
-  window.getSelection().removeAllRanges(); // clear current selection
-  window.getSelection().addRange(range); // to select text
+  window.getSelection().removeAllRanges();
+  window.getSelection().addRange(range);
   document.execCommand("copy");
-  window.getSelection().removeAllRanges(); // to deselect
+  window.getSelection().removeAllRanges();
+}
+
+function enterDream(){
+window.open("https://enterdream.xyz/index.html?id=" + Math.floor((Math.random() * 9909 ) + 1) + "&dream=" + btoa(document.getElementsByClassName("response")[0]));
 }
 
 const RGBToHSL = (r, g, b) => {
@@ -98,3 +102,5 @@ imgInput.addEventListener('change',
       reader.readAsDataURL(imageFile);
     }
   });
+
+
