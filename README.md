@@ -9,7 +9,7 @@ Step 1. Upload your image. Makes sure you've resized it to 32x32 pixels. [You ca
 ![image](https://user-images.githubusercontent.com/95499220/183228866-7416e2b8-5800-4311-9323-b2caaedf3ee5.png)
 
 
-Step 2. Click "Generate" to see the output below.
+Step 2. Click "Upload" to see the output below.
 
 Step 3. You can modify numbers 1-9 to change the image automatically.
 
