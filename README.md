@@ -25,6 +25,7 @@ Step 4. Either copy the input and past into enterdream.xyz or select "Enter Drea
 
 
 Enjoy,
+
 -thebadcc
 
 ## LICENSE (MIT)
