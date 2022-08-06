@@ -11,9 +11,17 @@ Step 1. Upload your image. Makes sure you've resized it to 32x32 pixels. [You ca
 
 Step 2. Click "Upload" to see the output below.
 
-Step 3. You can modify numbers 1-9 to change the image automatically.
+![image](https://user-images.githubusercontent.com/95499220/183228925-df52f337-cd7a-4829-8d6e-cb586ee011bc.png)
 
-Step 4. Either copy the input and past into enterdream.xyz or select "Enter Random Dream" to see the output.
+
+Step 3. You can modify numbers 1-9 in the Editor to change the image automatically. [Grayscale may improve accuracy.](https://onlinepngtools.com/convert-png-to-grayscale)
+
+![image](https://user-images.githubusercontent.com/95499220/183228971-8dce5886-51e4-48f3-9477-6b418a74a3f2.png)
+
+
+Step 4. Either copy the input and past into enterdream.xyz or select "Enter Dream" to see the output in a random Terraform.
+
+![image](https://user-images.githubusercontent.com/95499220/183229006-6f9e942b-9780-4352-9dde-634a67f09dd3.png)
 
 
 ## LICENSE (MIT)
