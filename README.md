@@ -24,6 +24,9 @@ Step 4. Either copy the input and past into enterdream.xyz or select "Enter Drea
 ![image](https://user-images.githubusercontent.com/95499220/183229006-6f9e942b-9780-4352-9dde-634a67f09dd3.png)
 
 
+Enjoy,
+-thebadcc
+
 ## LICENSE (MIT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
