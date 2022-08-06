@@ -7,6 +7,11 @@ function copyToClipboard() {
   window.getSelection().removeAllRanges();
 }
 
+function enterDream() { 
+var decode = document.getElementsByClassName("response")[0].innerText;
+window.open("https://enterdream.xyz/index.html?id=" + Math.floor((Math.random() * 9909 ) + 1) + "&dream=" + btoa(decode));
+}
+
 const RGBToHSL = (r, g, b) => {
   r /= 255;
   g /= 255;
