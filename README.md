@@ -4,7 +4,7 @@
 
 **How to Guide**
 
-Step 1. Upload your image. Makes sure you've resized it to 32x32 pixels. [You can resize with this online tool.](https://onlinepngtools.com/resize-png?width=32&height=32&ratio=true)
+Step 1. Upload your image. Makes sure you've resized it to 32x32 pixels. [You can resize with this tool.](https://onlinepngtools.com/resize-png?width=32&height=32&ratio=true)
 
 ![image](https://user-images.githubusercontent.com/95499220/183228866-7416e2b8-5800-4311-9323-b2caaedf3ee5.png)
 
